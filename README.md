@@ -14,14 +14,14 @@
 <h1 align="left">ESP32 JAMMER & WIFI DEAUTHER 2.4GHz</h1>
 <h4 align="left">
 This is a combined firmware of jamming and deauther firmware, I named it "Eclipse-24". Before going any further, you should read the complete guide from the previous repo below :
-  <br>
-  <br>
   <p>
+    <blockquote>
 <a href="https://github.com/Mizu-Tech/mizu-tech-esp32-wifi-ble-jammer.git">ESP32 Jammer</a>
-    <br>
+    </blockquote>
+  <blockquote>
     <a href="https://github.com/Mizu-Tech/mizu-tech-esp32-wifi-deauther.git">ESP32 Deauther</a>
+  </blockquote>
   </p>
-  <br>
   There are two firmware versions: OLED and LCD, both paid. This repo may only contain a partial guide, as the full guide is available in the previous repo. Read till the end for the complete guide, make sure you don't miss any part.
 </h4>
 
@@ -49,37 +49,24 @@ Just pay once and you can access both firmware from the web flasher. For payment
 Thank you for your support ^_^
 
 <h1 align="left">Web Flasher</h1>
-<h4 align="left">Authentication required (for paid version)</h4>
+<h4 align="left">Authentication required</h4>
 <img src="assets/login.png" width="800">
 <h4 align="left">Connect the ESP32 to the laptop USB then install the firmware</h4>
 <img src="assets/flash.png" width="800">
 
-Firmware : esp32-jammer-lcd-v1.0 (FREE)
+Firmware : esp32-jammer-deauther-lcd-v3.4
 <blockquote>
-<a href="https://flasher-esp32-jammer-free.vercel.app">Web flasher 1</a>
+<a href="https://firmware-esp32-jammer-lcd.vercel.app">LCD flasher</a>
 </blockquote>
-Firmware : esp32-jammer-lcd-v4.0 (PAID)
+Firmware : esp32-jammer-deauther-oled-v5.0
 <blockquote>
-<a href="https://firmware-esp32-jammer-lcd.vercel.app">Web flasher 2</a>
-</blockquote>
-Firmware : esp32-jammer-oled-v4.0 (PAID)
-<blockquote>
-<a href="https://firmware-esp32-jammer-oled.vercel.app">Web flasher 3</a>
+<a href="https://firmware-esp32-jammer-oled.vercel.app">OLED flasher </a>
 </blockquote>
 <h4 align="left">Paid flasher cannot be accessed if using a github account that is not registered as a buyer.</h4>
 
 <h1 align="left">Features</h1>
-<h4 align="left"> <b> Firmware : esp32-jammer-lcd-v1.0 </b> </h4>
-<p align="left">
-<ul>
-<li>2 or 3 NRF support</li>
-<li>Plug n Play</li>
-<li>LCD display</li>
-<li>Target ch 1 - 14 only</li>
-<li>One single mode (Cross)</li>
-</ul>
 
-<h4 align="left"><b>Firmware : esp32-jammer-lcd-v4.0</b></h4>
+<h4 align="left"><b>Firmware : esp32-jammer-deauther-lcd-v3.4</b></h4>
 <ul>
   <li>2 or 3 NRF support</li>
   <li>Plug n Play</li>
@@ -91,9 +78,13 @@ Firmware : esp32-jammer-oled-v4.0 (PAID)
   <li>Drone mode</li>
   <li>Fullband mode</li>
   <li>Push button support</li>
+  <li>Wifi Deauther</li>
+  <li>Evil Twin</li>
+  <li>Beacon Spam (Wifi Spammer)</li>
+  <li>Password Catcher (with Evil Twin)</li>
 </ul>
 
-<h4 align="left"><b>Firmware : esp32-jammer-oled-v4.0</b></h4>
+<h4 align="left"><b>Firmware : esp32-jammer-deauther-oled-v5.0</b></h4>
 <ul>
   <li>2 or 3 NRF support</li>
   <li>Plug n Play</li>
@@ -104,6 +95,10 @@ Firmware : esp32-jammer-oled-v4.0 (PAID)
   <li>Sequential mode</li>
   <li>Spectrum analyzer</li>
   <li>Push button support</li>
+  <li>Wifi Deauther</li>
+  <li>Evil Twin</li>
+  <li>Beacon Spam (Wifi Spammer)</li>
+  <li>Password Catcher (with Evil Twin)</li>
 </ul>
 
 <h1 align="left">DEMO</h1>
