@@ -290,13 +290,13 @@ LCD version review is in the DEMO video, or click here <a href="https://www.tikt
 <h3 align="left">Problems and solutions</h3>
 <blockquote><h4 align="left">If the power supply voltage doesn't reach 5V, I recommend purchasing a boost converter to increase the voltage to 5V. However, if the voltage is above 5V, it's best to purchase a buck converter to lower the voltage so your ESP32 doesn't burn out.</h4></blockquote>
 <blockquote><h4 align="left"> If the NRF24 or ML01DP5 is powered directly from the battery, ensure the voltage is at 3.3V (3.6V is the maximum). Anything below this limit will reduce jamming performance, including range. Too high a voltage can also cause the module to burn out.</h4></blockquote>
-<blockquote><h4 align="left">Please note, the quality of the noise produced is not only determined by the firmware (code), but also by the most important hardware (module, power, chip, etc.). Make sure the wiring is done carefully.</h4></blockquote>
 <blockquote>If the device cannot connect to wifi, turn off VPN and custom DNS, make sure the web panel is opened in a site state without SSL/TLS (don't worry, this is just localhost).</blockquote>
 <blockquote>If the web panel is still inaccessible (usually on an iPhone), you just need to tinker with the Network settings, this happens because the system considers the web panel a threat.</blockquote>
-<blockquote>Turn off your cellular data if you access the web panel using a smartphone, make sure the device is offline and only connected to the ESP32 internal wifi.</blockquote>
-<blockquote>If you access the panel using a desktop, use a chrome extension to force the web panel to disable SSL/TLS (force HTTP).</blockquote>
-<blockquote>Don't spam commands; wait for one process to complete before executing another. It's recommended to execute "STOP ALL ATTACKS" first.</blockquote>
 <blockquote>If you want to execute a command, always make sure the device is connected to the ESP32's internal WiFi first and also make sure the device is offline.</blockquote>
+<blockquote>If you access the panel using a desktop, use a chrome extension to force the web panel to disable SSL/TLS (force HTTP).</blockquote>
+<blockquote>Turn off your cellular data if you access the web panel using a smartphone, make sure the device is offline and only connected to the ESP32 internal wifi.</blockquote>
+<blockquote>Don't spam commands; wait for one process to complete before executing another. It's recommended to execute "STOP ALL ATTACKS" first.</blockquote>
+<blockquote><h4 align="left">Please note, the quality of the noise produced is not only determined by the firmware (code), but also by the most important hardware (module, power, chip, etc.). Make sure the wiring is done carefully.</h4></blockquote>
 
 <h1 align="left">Social Media</h1>
 <a href="https://www.tiktok.com/@azfamahardika__">TikTok</a> <br>
