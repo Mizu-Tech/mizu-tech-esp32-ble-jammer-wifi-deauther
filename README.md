@@ -56,11 +56,11 @@ Thank you for your support ^_^
 
 Firmware : esp32-jammer-deauther-lcd-v3.4
 <blockquote>
-<a href="https://firmware-esp32-jammer-lcd.vercel.app">LCD flasher</a>
+<a href="https://flasher-esp32-jammer-deauther-lcd.vercel.app/">LCD flasher</a>
 </blockquote>
 Firmware : esp32-jammer-deauther-oled-v5.0
 <blockquote>
-<a href="https://firmware-esp32-jammer-oled.vercel.app">OLED flasher </a>
+<a href="https://flasher-esp32-jammer-deauther-oled.vercel.app/">OLED flasher </a>
 </blockquote>
 <h4 align="left">Paid flasher cannot be accessed if using a github account that is not registered as a buyer.</h4>
 
