@@ -125,6 +125,10 @@ Watch this video to see how this tool works
   <li>Toggle switch</li>
   <li>NRF24 adapter</li>
   <li>Jumper wires</li>
+</ul>
+<h3 align="left">Deauther components</h3>
+<ul>
+  <li>2.4GHz SMA antenna U.FL connector</li>
 </ul> <br>
 
 Note
