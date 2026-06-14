@@ -96,7 +96,6 @@ Firmware : esp32-jammer-deauther-oled-v5.0
   <li>Hopping mode</li>
   <li>Hunter mode</li>
   <li>Sequential mode</li>
-  <li>Spectrum analyzer</li>
   <li>Push button support</li>
   <li>Wifi Deauther</li>
   <li>Evil Twin</li>
