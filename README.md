@@ -22,7 +22,10 @@ This is a combined firmware of jamming and deauther firmware, I named it "Eclips
     <a href="https://github.com/Mizu-Tech/mizu-tech-esp32-wifi-deauther.git">ESP32 Deauther</a>
   </blockquote>
   </p>
-  There are two firmware versions: OLED and LCD, both paid. This repo may only contain a partial guide, as the full guide is available in the previous repo. Read till the end for the complete guide, make sure you don't miss any part.
+  There are two firmware versions, OLED and LCD. For free firmware, it is available in the ESP32 Jammer repo, you can try it as a trial version. 
+  <br>
+  <br>
+  This repo may only contain a partial guide, as the full guide is available in the previous repo. Read till the end for the complete guide, make sure you don't miss any part.
 </h4>
 
 <h1 align="left">Changelog</h1>
