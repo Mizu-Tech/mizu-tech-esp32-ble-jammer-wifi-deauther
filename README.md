@@ -147,17 +147,20 @@ Note
 <h4 align="left">Ebyte ML01DP5</h4>
 <img src="hardware/ebyte ml01dp5.png" width="800">
 You can also use the ML01DP5 module, the pin configuration is exactly the same as the NRF24L01.
-
+<br>
+<br>
+<p>
+<img src="hardware/esp32_wroom-32u.jpg" width="400"> 
+<img src="hardware/antenna_ufl.jpeg" width="400">
+</p>
+Just connect the antenna to the ESP32, make sure the U.FL port is connected firmly.
 <h1></h1>
 
 <h3 align="left"> WIRING SCHEME </h3>
-<h4 align="left">If using 3 NRF, this scheme for you</h4>
+<h4 align="left">3 NRF Scheme</h4>
 <img src="wiring schema/3nrf.png" width="800">
 
-<h4 align="left">Use this one if using an adapter (recommended)</h4>
-<img src="wiring schema/3nrf + adapter.png" width="800">
-
-<h4 align="left">But, you can also use 2 NRF with a scheme like this</h4>
+<h4 align="left">2 NRF Scheme</h4>
 <img src="wiring schema/2nrf.png" width="800">
 You can replace the LCD with an OLED, don't worry, the pin configuration is exactly the same using I2C.<br>
 Attach the 2.4GHz antenna to the end of the module. Make sure the ports are aligned.
