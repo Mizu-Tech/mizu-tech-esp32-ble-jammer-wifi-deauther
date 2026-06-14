@@ -234,20 +234,18 @@ After the wiring and pin configuration process is complete, open the web flasher
 <h3 align="left">➤ STEP 3 : Explanation</h3>
 After a successful installation, you can turn on the device. Make sure your hardware wiring is correct.
 
-<h3 align="left">> RESULT (oled version)</h3>
-<h4 align="left">Prototype</h4>
-<img src="assets/tool.jpeg" width="500">
-<h4 align="left">Random hopping mode</h4>
-<img src="assets/hopping_mode.jpeg" width="500">
-<h4 align="left">Sequential mode</h4>
-<img src="assets/sequential_mode.jpeg" width="500">
-<h4 align="left">Spectrum analyzer</h4>
-<img src="assets/spectrum_analyzer.jpeg" width="500">
+<h3 align="left">> RESULT</h3>
+<h4 align="left">Oled Prototype</h4>
+<p
+  ><img src="assets/jamming-mode.jpeg" width="400">
+<img src="assets/deauther-mode.jpeg" width="400">
+</p>
+
 You can build your own version of the prototype. <br>
 LCD version review is in the DEMO video, or click here <a href="https://www.tiktok.com/@azfamahardika__/photo/7632892815738932498?is_from_webapp=1&sender_device=pc&web_id=7642704300384585223">LCD prototype</a>.
 <h1></h1>
 
-<h3 align="left">> HOW TO USE ?</h3>
+<h3 align="left">> HOW TO JAMMING ?</h3>
 
 <h4 align="left">For OLED version firmware</h4>
 
@@ -255,7 +253,7 @@ LCD version review is in the DEMO video, or click here <a href="https://www.tikt
   <li>At the top left is the radio status indicator (N1, N2, N3)</li>
   <li>At the top right is the channel range indicator</li>
   <li>Press to change attack mode (Hopping, Cross, Hunter, Sequential)</li>
-  <li>Hold to enter spectrum analyzer mode</li>
+  <li>To access the deauther web panel on the OLED, enter Evil Twin mode (IP 199.125.24.3 appears)</li>
 </ul>
 
 <p><i>*You can change attack modes to find the most effective technique.</i></p>
@@ -266,17 +264,33 @@ LCD version review is in the DEMO video, or click here <a href="https://www.tikt
   <li>After booting, the LCD displays the NRF status</li>
   <li>Press to change system mode (WIFI, BLE, DRONE, FULLBAND)</li>
   <li>Hold to change attack mode (Random Hopping or Cross Sweeping)</li>
+  <li>To access the web deauther panel, enter system mode "!! EVIL TWIN !!" below which there is an IP number (199.125.24.3)</li>
 </ul>
 
 <p><i>*You can switch system mode according to the target.</i></p>
+
+<h3 align="left">> HOW TO DEAUTHER ?</h3>
+<ul>
+  <li>Once the device is powered on, go to wifi settings and connect your device to the SSID "Galaxy A55 5G" (for LCD version), for OLED version the SSID is "ESP32", this is the internal wifi alias of the ESP32 and this is just localhost</li>
+  <li>After connected to wifi, open your browser and go to page 199.125.24.3 (it is recommended to open it using Chrome)</li>
+  <li>After the IP is entered, the browser will display a panel
+    <p>
+      <img src="assets/web-panel-1.jpeg" width="400"> 
+<img src="assets/web-panel-2.jpeg" width="400">
+    </p>
+  </li>
+  <li><b>DEAUTH ATTACK :</b> Used to manipulate the target so that the target forcibly disconnects the client connection.</li>
+<li><b>EVIL TWIN :</b> Used to change the internal Wi-Fi SSID name to the target SSID name. It's good to use after a deauth attack is complete. If the client is fooled, they'll open the fake SSID and enter the phishing portal capture website.
+ <img src="assets/capture_login.png" width="800">
+</li>
+  <li><b>WIFI SPAMMER :</b> Used to spam empty SSIDs into the air, the longer the SSID characters the fewer SSIDs that successfully fly into the air.</li>
+  <li><b>CAPTURED DATA :</b> Captures the password entered by the client if they enter a fake SSID (Evil Twin) on the capture portal page.</li>
+</ul>
 
 <h1 align="left"> !! READ THIS !!</h1>
 <blockquote><h4 align="left">If the power supply voltage doesn't reach 5V, I recommend purchasing a boost converter to increase the voltage to 5V. However, if the voltage is above 5V, it's best to purchase a buck converter to lower the voltage so your ESP32 doesn't burn out.</h4></blockquote>
 <blockquote><h4 align="left"> If the NRF24 or ML01DP5 is powered directly from the battery, ensure the voltage is at 3.3V (3.6V is the maximum). Anything below this limit will reduce jamming performance, including range. Too high a voltage can also cause the module to burn out.</h4></blockquote>
 <blockquote><h4 align="left">Please note, the quality of the noise produced is not only determined by the firmware (code), but also by the most important hardware (module, power, chip, etc.). Make sure the wiring is done carefully.</h4></blockquote>
-
-<h1 align="left">Similiar Project</h1>
-<a href="https://github.com/Mizu-Tech/mizu-tech-esp32-wifi-deauther.git">ESP32 Deauther</a>
 
 <h1 align="left">Social Media</h1>
 <a href="https://www.tiktok.com/@azfamahardika__">TikTok</a> <br>
